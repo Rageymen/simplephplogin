@@ -15,7 +15,7 @@ $result = $conn->query($sql);
  else{
  	$_SESSION['id'] = $row['id'];
  	$_SESSION['first'] = $row['first'];
- 	$_SESSION['last2'] = $row['last'];
+ 	$_SESSION['last'] = $row['last'];
 
  }
 
